@@ -29,7 +29,7 @@ const Header = () => {
           <input
             type="text"
             placeholder="Search"
-            className="ml-2 outline-none p-2 font-semibold text-sm w-[200px] bg-inherit"
+            className="hidden md:inline-block sm:inline-block ml-1 outline-none p-2 font-semibold text-sm w-[200px] bg-inherit"
           />
           {/* <img src={search} alt='search' className='w-6 h-6 object-contain cursor-pointer mr-2'/> */}
           <IconButton sx={{

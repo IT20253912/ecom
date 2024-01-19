@@ -5,7 +5,7 @@ import Header from "../components/Header/Header"
 
 const MainLayout = () => {
   return (
-    <div className="w-full h-screen"> 
+    <div className="overflow-hidden w-full h-screen"> 
        <Header />
        <Outlet />
        <Footer />
